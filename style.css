@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(44, 54, 57);
+}
+
+.imglink {
+  width: 5rem;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+#hr {
+  margin-top: 1.3em;
+  width: 92em;
+}
+
+#nome {
+  font-size: 5.5rem;
+  color: rgb(162, 123, 92);
+  margin-right: 6.5em;
+}
+
+#conteudo {
+  margin-top: 18em;
+  float: right;
+}
+
+#informações {
+  font-size: 2rem;
+  color: rgb(220, 215, 201);
+}
+
+#informações2 {
+  font-size: 1.3rem;
+  color: rgb(220, 215, 201);
+  margin-top: 1.2em;
+}
+
+main {
+  float: left;
+  position: fixed;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(63, 78, 79);
+  width: 16%;
+  height: 100%;
+}
+
+#foto {
+  border: solid 2px rgb(162, 123, 92);
+  margin-top: 80%;
+  margin-left: 15%;
+  width: 13em;
+  border-radius: 50%;
+}
+
+.container {
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+  position: relative;
+  margin: 1rem;
+  padding: 10px 20px;
+  background-color: rgb(162, 123, 92);
+  border-radius: 30px;
+  color: rgb(220, 215, 201);
+  transition: transform 0.3s ease;
+}
+
+.btn::after,
+.btn::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  background: rgb(162, 123, 92);
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translate(-12px, -12px);
+}
+
+.btn:hover::after {
+  transform: translate(6px, 6px);
+}
+
+.btn:hover::before {
+  transform: translate(12px, 12px);
+}
+
+/* Style Conhecimentos */
+
+#nomec {
+  font-size: 5.5rem;
+  color: rgb(162, 123, 92);
+  margin-right: 8.2em;
+}
+#informaçõesc {
+  font-size: 2rem;
+  color: rgb(220, 215, 201);
+  margin-right: 8.2em;
+}
+#informações2c {
+  font-size: 1.3rem;
+  color: rgb(220, 215, 201);
+  margin-top: 1.2em;
+  margin-right: 7.5em;
+}
+#informações3c {
+  font-size: 2rem;
+  color: rgb(220, 215, 201);
+  margin-top: 2.2em;
+  margin-right: 7.5em;
+}
+
+/* Style Objetivos */
+
+#nomeo {
+  font-size: 5.5rem;
+  color: rgb(162, 123, 92);
+  margin-right: 6.6em;
+}
+#informaçõeso {
+  font-size: 2rem;
+  color: rgb(220, 215, 201);
+}
+#informações2o {
+  font-size: 1.3rem;
+  color: rgb(220, 215, 201);
+  margin-top: 1.2em;
+  margin-right: 6.6em;
+}
+#informações3o {
+  font-size: 2rem;
+  color: rgb(220, 215, 201);
+  margin-top: 2.2em;
+  margin-right: 6.5em;
+}
